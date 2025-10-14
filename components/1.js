@@ -24,7 +24,7 @@ const Component1 = () => {
         .outer-container {
           width: 800px;
           height: 400px;
-          filter: contrast(150%) brightness(110%);
+          filter: contrast(120%) brightness(105%);
           display: flex;
           justify-content: center;
           align-items: center;
@@ -35,7 +35,7 @@ const Component1 = () => {
           width: 100%;
           height: 100%;
           position: relative;
-          filter: blur(30px);
+          filter: blur(15px);
         }
 
         .metaball {

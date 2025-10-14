@@ -1,25 +1,15 @@
 import React from 'react';
 
-const Component2 = () => {
+const Component2_2 = () => {
   return (
-    <div className="container">
-      <div className="metaballs">
-        <div className="metaball metaball--big metaball-1"></div>
-        <div className="metaball metaball--small metaball-2"></div>
-        <div className="metaball metaball--small metaball-3"></div>
-        <div className="metaball metaball--small metaball-4"></div>
-        <div className="metaball metaball--small metaball-5"></div>
-        <div className="metaball metaball--small metaball-6"></div>
-      </div>
+    <div className="metaballs">
+      <div className="metaball metaball--big metaball-1"></div>
+      <div className="metaball metaball--small metaball-2"></div>
+      <div className="metaball metaball--small metaball-3"></div>
+      <div className="metaball metaball--small metaball-4"></div>
+      <div className="metaball metaball--small metaball-5"></div>
+      <div className="metaball metaball--small metaball-6"></div>
       <style jsx>{`
-        .container {
-          width: 100%;
-          height: 100%;
-          background: white;
-          position: relative;
-          overflow: hidden;
-        }
-
         .metaballs {
           position: absolute;
           top: 0;
@@ -30,13 +20,12 @@ const Component2 = () => {
           display: flex;
           align-items: center;
           justify-content: center;
-          filter: contrast(40);
+          filter: contrast(25);
         }
 
         .metaball {
           position: absolute;
           border-radius: 100%;
-          background: black;
           filter: blur(20px);
         }
 
@@ -45,11 +34,13 @@ const Component2 = () => {
           height: 30vw;
           top: calc(50% - 15vw);
           left: calc(50% - 15vw);
+          background: rgba(255, 0, 0, 0.8);
         }
 
         .metaball--small {
           width: 6rem;
           height: 6rem;
+          background: rgba(255, 215, 0, 0.8);
         }
 
         .metaball-2 {
@@ -104,4 +95,5 @@ const Component2 = () => {
   );
 };
 
-export default Component2;
+export default Component2_2;
+

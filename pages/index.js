@@ -6,7 +6,7 @@ const Component1 = dynamic(() => import('../components/1'), {
   loading: () => <div style={{ width: '100%', height: '100%', background: 'black' }} />
 });
 
-const Component2 = dynamic(() => import('../components/2'), {
+const Component2 = dynamic(() => import('../components/metaball/2'), {
   ssr: false,
   loading: () => <div style={{ width: '100%', height: '100%', background: 'black' }} />
 });
