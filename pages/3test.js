@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 
-const BlobComponent4 = dynamic(() => import('../components/cssblob/4'), {
+const BlobComponent4 = dynamic(() => import('../components/blob2/b1'), {
   ssr: false,
   loading: () => <div style={{ width: '100%', height: '100%', background: 'white' }} />
 });
